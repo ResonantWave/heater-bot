@@ -30,7 +30,7 @@ There's also a commented block for setting a static IP Address
 
 ### Other
  1. Can I use the Raspberry Pi directly as the heater controller instead of using the NodeMCU?
-  1. Yes, of course. Open an issue if you want more details on this.
+      Yes, of course. Open an issue if you want more details on this.
 
 ### Planned features
  - [ ] Interval heating (eg, turn on heater 2 hours from now, turn off heater 6 hours from now)
