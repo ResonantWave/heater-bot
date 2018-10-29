@@ -13,9 +13,8 @@ Control your house heating from a Telegram bot
  * A cup of coffee or any hot beverage to enjoy while you're setting everything up
  
 ### Code
-========
 #### Raspberry Pi
-This project requires some libraries, `requests` and `pyTelegramBotAPI`
+This project requires some libraries, `requests` and `pyTelegramBotAPI`. 
 You can set everything up by running `pip install -r requirements.txt`
 
 You will need a Bot API key, obtainable via @BotFather on Telegram. Put it on (heatBot.py)[heat_telegrambot/heatBot.py]
@@ -30,9 +29,8 @@ Don't forget to set your WiFi's SSID and password before flashing. By default po
 There's also a commented block for setting a static IP Address
 
 ### Other
-=========
-##### Can I use the Raspberry Pi directly as the heater controller instead of using the NodeMCU?
-###### Yes, of course. Open an issue if you want more details on this.
+ 1. Can I use the Raspberry Pi directly as the heater controller instead of using the NodeMCU?
+  * Yes, of course. Open an issue if you want more details on this.
 
 ### Planned features
  - [ ] Interval heating (eg, turn on heater 2 hours from now, turn off heater 6 hours from now)
@@ -42,6 +40,5 @@ There's also a commented block for setting a static IP Address
  *  [@ResonantWave](https://github.com/ResonantWave)
 
 ### Contributing
-================
 * The code is licensed under the [GPL V3](LICENSE)
 * Feel free to contribute to the code
