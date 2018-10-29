@@ -17,7 +17,7 @@ Control your house heating from a Telegram bot
 This project requires some libraries, `requests` and `pyTelegramBotAPI`. 
 You can set everything up by running `pip install -r requirements.txt`
 
-You will need a Bot API key, obtainable via @BotFather on Telegram. Put it on (heatBot.py)[heat_telegrambot/heatBot.py]
+You will need a Bot API key, obtainable via @BotFather on Telegram. Put it on [heatBot.py](heat_telegrambot/heatBot.py)
 
 Also, you will need to put your user ID on the `allowed_numbers` list. To find your ID, start the bot and send `/start`. 
 
