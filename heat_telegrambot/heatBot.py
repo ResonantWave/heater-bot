@@ -106,6 +106,9 @@ def keep_on_for(m):
     if chat_text == 'cancel':
         bot.send_message(m.chat.id, 'Cancelled', reply_markup = types.ReplyKeyboardRemove(selective = False))
         return
+    if not all(x.isalnum() or x.isspace() for x in chat_text):
+        bot.send_message(m.chat.id, 'Wrong chars! Are you trying to exploit something?')
+        return
 
     end_command = 'at now + {} -f ./turnOffHeat.sh'.format(chat_text)
     process = subprocess.Popen(end_command, shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE)
